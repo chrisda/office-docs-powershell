@@ -159,9 +159,11 @@ Accept wildcard characters: False
 
 The ExclusionList parameter specifies the security groups to exclude from this policy. Members of the specified security groups who have non-compliant devices are not affected by block access actions.
 
-This parameter uses the GUID value of the group. To find this GUID value, run the command Get-Group | Format-Table Name,GUID.
+This parameter uses the GUID value of the group. To find this GUID value, run the command `Get-Group | Format-Table Name,GUID`.
 
 To enter multiple values and overwrite any existing entries, use the following syntax: `Value1,Value2,...ValueN`. If the values contain spaces or otherwise require quotation marks, use the following syntax: `"Value1","Value2",..."ValueN"`.
+
+The value 00000000-0000-0000-0000-000000000000 means all users are included in Basic Mobility and Security.
 
 ```yaml
 Type: MultiValuedProperty
