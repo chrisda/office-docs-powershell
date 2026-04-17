@@ -28,6 +28,8 @@ Set-HVEAccountBillingPolicy [-Identity] <MailUserIdParameter> -BillingPolicyId <
 ## DESCRIPTION
 An HVE account is a special type of mail user (also known as a mail-enabled user) used to send large amounts of email. For more information, see [High Volume Email](https://learn.microsoft.com/exchange/mail-flow-best-practices/high-volume-mails-m365).
 
+Changes can take up to 5 minutes to take effect.
+
 You need to be assigned permissions before you can run this cmdlet. Although this article lists all parameters for the cmdlet, you might not have access to some parameters if they aren't included in the permissions assigned to you. To find the permissions required to run any cmdlet or parameter in your organization, see [Find the permissions required to run any Exchange cmdlet](https://learn.microsoft.com/powershell/exchange/find-exchange-cmdlet-permissions).
 
 ## EXAMPLES
@@ -41,7 +43,7 @@ This example assigns the specified billing policy to the specified HVE account.
 
 ### Example 2
 ```powershell
-Set-HVEAccountBillingPolicy -Identity " HVEAccount01@tailspintoys.com" -BillingPolicyId ""
+Set-HVEAccountBillingPolicy -Identity " HVEAccount01@tailspintoys.com" -BillingPolicyId $null
 ```
 
 This example removes the billing policy mapping from the specified HVE account.
@@ -74,7 +76,7 @@ The BillingPolicyId parameter specified the GUID of the billing policy to assign
 
 To view the available billing policies, run the following command: `Get-BillingPolicy -ResourceType HVE`.
 
-To remove a previously assigned billing policy, use the value `""`.
+To remove a previously assigned billing policy, use the value `$null`.
 
 ```yaml
 Type: String
