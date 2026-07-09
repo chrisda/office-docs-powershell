@@ -25,6 +25,7 @@ New-SafeLinksPolicy [-Name] <String>
  [-AllowClickThrough <Boolean>]
  [-Confirm]
  [-CustomNotificationText <String>]
+ [-CustomUrlList <MultiValuedProperty>]
  [-DeliverMessageAfterScan <Boolean>]
  [-DisableUrlRewrite <Boolean>]
  [-DoNotRewriteUrls <MultiValuedProperty>]
@@ -38,6 +39,7 @@ New-SafeLinksPolicy [-Name] <String>
  [-ScanUrls <Boolean>]
  [-TrackClicks <Boolean>]
  [-UseTranslatedNotificationText <Boolean>]
+ [-UseTranslatedUrlText <Boolean>]
  [-WhatIf]
  [<CommonParameters>]
 ```
@@ -152,6 +154,24 @@ The custom notification text specifies the customized notification text to show 
 
 ```yaml
 Type: String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -CustomUrlList
+
+> Applicable: Exchange Online
+
+{{ Fill CustomUrlList Description }}
+
+```yaml
+Type: MultiValuedProperty
 Parameter Sets: (All)
 Aliases:
 
@@ -423,6 +443,24 @@ The UseTranslatedNotificationText specifies whether to use Microsoft Translator 
 
 - $true: Translate custom notification text to the user's language.
 - $false: Don't translate custom notification text to the user's language. This value is the default.
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -UseTranslatedUrlText
+
+> Applicable: Exchange Online
+
+{{ Fill UseTranslatedUrlText Description }}
 
 ```yaml
 Type: Boolean
