@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -46,7 +46,7 @@ This example returns detailed information for the specified blocked connector.
 
 ### -ConnectorId
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ConnectorId parameter specifies the blocked connector that you want to view. The value is a GUID (for example, 159eb7c4-75d7-43e2-95fe-ced44b3e0a56).
 

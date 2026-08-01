@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -73,7 +73,7 @@ This example creates an auto-labeling policy named GlobalPolicy for the specifie
 
 ### -Name
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Name parameter specifies a unique name for the auto-labeling policy. If the value contains spaces, enclose the value with quotation marks (").
 
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 
 ### -ApplySensitivityLabel
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The ApplySensitivityLabel parameter specifies the label to use for the auto-labeling policy.
 
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 
 ### -ApplySensitivityLabelOverwriteWorkloads
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill ApplySensitivityLabelOverwriteWorkloads Description }}
 
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 
 ### -Comment
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Comment parameter specifies an optional comment. If you specify a value that contains spaces, enclose the value in quotation marks ("), for example: "This is an admin note".
 
@@ -145,7 +145,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -416,7 +416,7 @@ Accept wildcard characters: False
 
 ### -Locations
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill Locations Description }}
 
@@ -434,7 +434,7 @@ Accept wildcard characters: False
 
 ### -Mode
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Mode parameter specifies the action and notification level of the auto-labeling policy. Valid values are:
 
@@ -494,7 +494,7 @@ Accept wildcard characters: False
 
 ### -OneDriveLocation
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The OneDriveLocation parameter specifies the OneDrive sites to include in the policy. You identify the site by its URL value, or you can use the value All to include all sites.
 
@@ -655,7 +655,7 @@ Accept wildcard characters: False
 
 ### -RemoveLabel
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill RemoveLabel Description }}
 
@@ -709,7 +709,7 @@ Accept wildcard characters: False
 
 ### -SharePointLocation
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The SharePointLocation parameter specifies the SharePoint sites to include in the policy. You identify the site by its URL value, or you can use the value All to include all sites.
 
@@ -767,7 +767,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The WhatIf switch doesn't work in Security & Compliance PowerShell.
 

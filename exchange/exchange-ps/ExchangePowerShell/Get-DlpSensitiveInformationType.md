@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -53,7 +53,7 @@ This example lists all the properties of the sensitive information type named "C
 
 ### -Identity
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Identity parameter specifies the sensitive information type that you want to view. Valid values are:
 

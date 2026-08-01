@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -43,7 +43,7 @@ This example unblocks the user julia@contoso.com.
 
 ### -SenderAddress
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SenderAddress parameter specifies the email address of the user that you want to unblock.
 
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 
 ### -Reason
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Reason parameter specifies the reason the user was blocked (the Reason property value). If the value contains spaces, enclose the value in quotation marks (").
 

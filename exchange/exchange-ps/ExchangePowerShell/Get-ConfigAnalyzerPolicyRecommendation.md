@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailControl-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 
 ### -RecommendedPolicyType
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The RecommendedPolicyType parameter specifies the preset security policy that you want to use as a baseline. Valid values are:
 

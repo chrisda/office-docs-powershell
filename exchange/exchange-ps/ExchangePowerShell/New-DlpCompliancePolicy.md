@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -153,7 +153,7 @@ This example creates a DLP policy for Microsoft 365 Copilot in several steps:
 
 ### -Name
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Name parameter specifies the unique name of the DLP policy. If the value contains spaces, enclose the value in quotation marks.
 
@@ -171,7 +171,7 @@ Accept wildcard characters: False
 
 ### -Comment
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Comment parameter specifies an optional comment. If you specify a value that contains spaces, enclose the value in quotation marks ("), for example: "This is an admin note".
 
@@ -189,7 +189,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -312,7 +312,7 @@ Accept wildcard characters: False
 
 ### -EnforcementPlanes
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The EnforcementPlanes parameter defines the layer where policy actions are run. This parameter uses the following syntax:
 
@@ -544,7 +544,7 @@ Accept wildcard characters: False
 
 ### -Locations
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Locations parameter specifies to whom, what, and where the DLP policy applies. This parameter uses the following properties:
 
@@ -583,7 +583,7 @@ Accept wildcard characters: False
 
 ### -Mode
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Mode parameter specifies the action and notification level of the DLP policy. Valid values are:
 
@@ -642,7 +642,7 @@ Accept wildcard characters: False
 
 ### -OneDriveLocation
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The OneDriveLocation parameter specifies whether to include OneDrive sites in the policy. A valid value for this parameter is All, which is also the default value.
 
@@ -880,7 +880,7 @@ Accept wildcard characters: False
 
 ### -Priority
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Priority parameter specifies a priority value for the policy that determines the order of policy processing. A lower integer value indicates a higher priority, the value 0 is the highest priority, and policies can't have the same priority value.
 
@@ -942,7 +942,7 @@ Accept wildcard characters: False
 
 ### -SharePointLocation
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The SharePointLocation parameter specifies the SharePoint sites to include in the DLP policy. You identify the site by its URL value, or you can use the value All to include all sites.
 
@@ -1128,7 +1128,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The WhatIf switch doesn't work in Security & Compliance PowerShell.
 

@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -103,7 +103,7 @@ This example modifies the spam filter policy named Contoso Executives with the f
 
 ### -Identity
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the spam filter policy that you want to modify. You can use any value that uniquely identifies the policy. For example:
 
@@ -125,7 +125,7 @@ Accept wildcard characters: False
 
 ### -AddXHeaderValue
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The AddXHeaderValue parameter specifies the X-header name (not value) to add to spam messages when a spam filtering verdict parameter is set to the value AddXHeader. The following spam filtering verdict parameters can use the AddXHeader action:
 
@@ -156,7 +156,7 @@ Accept wildcard characters: False
 
 ### -AdminDisplayName
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The AdminDisplayName parameter specifies a description for the policy. The maximum length is 256 characters. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -174,7 +174,7 @@ Accept wildcard characters: False
 
 ### -AllowedSenderDomains
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The AllowedSenderDomains parameter specifies trusted domains that aren't processed by the spam filter. Messages from senders in these domains are stamped with `SFV:SKA` in the `X-Forefront-Antispam-Report header` and receive a spam confidence level (SCL) of -1, so the messages are delivered to the recipient's inbox. Valid values are one or more SMTP domains.
 
@@ -198,7 +198,7 @@ Accept wildcard characters: False
 
 ### -AllowedSenders
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The AllowedSenders parameter specifies a list of trusted senders that skip spam filtering. Messages from these senders are stamped with SFV:SKA in the X-Forefront-Antispam-Report header and receive an SCL of -1, so the messages are delivered to the recipient's inbox. Valid values are one or more SMTP email addresses.
 
@@ -222,7 +222,7 @@ Accept wildcard characters: False
 
 ### -BlockedSenderDomains
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The BlockedSenderDomains parameter specifies domains that are always marked as spam sources. Messages from senders in these domains are stamped with `SFV:SKB` value in the `X-Forefront-Antispam-Report` header and receive an SCL of 6 (spam). Valid values are one or more SMTP domains.
 
@@ -246,7 +246,7 @@ Accept wildcard characters: False
 
 ### -BlockedSenders
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The BlockedSenders parameter specifies senders that are always marked as spam sources. Messages from these senders are stamped with `SFV:SKB` in the `X-Forefront-Antispam-Report` header and receive an SCL of 6 (spam). Valid values are one or more SMTP email addresses.
 
@@ -270,7 +270,7 @@ Accept wildcard characters: False
 
 ### -BulkMovesEnabled
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 **Note**: This parameter is currently in Preview, isn't available in all organizations, and is subject to change.
 
@@ -296,7 +296,7 @@ Accept wildcard characters: False
 
 ### -BulkQuarantineTag
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The BulkQuarantineTag parameter specifies the quarantine policy that's used on messages that are quarantined as bulk email (the BulkSpamAction parameter value is Quarantine). You can use any value that uniquely identifies the quarantine policy. For example:
 
@@ -324,7 +324,7 @@ Accept wildcard characters: False
 
 ### -BulkSpamAction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The BulkSpamAction parameter specifies the action to take on messages that are marked as bulk email (also known as gray mail) based on the bulk complaint level (BCL) of the message, and the BCL threshold you configure in the BulkThreshold parameter. Valid values are:
 
@@ -350,7 +350,7 @@ Accept wildcard characters: False
 
 ### -BulkThreshold
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The BulkThreshold parameter specifies the BCL on messages that triggers the action specified by the BulkSpamAction parameter (greater than or equal to the specified BCL value). A valid value is an integer from 1 to 9. The default value is 7, which means a BCL of 7, 8, or 9 on messages triggers the action specified by the BulkSpamAction parameter.
 
@@ -370,7 +370,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -391,7 +391,7 @@ Accept wildcard characters: False
 
 ### -DownloadLink
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is deprecated and no longer used. End-user quarantine notifications are controlled by quarantine policies as specified by the \*QuarantineTag parameters.
 
@@ -409,7 +409,7 @@ Accept wildcard characters: False
 
 ### -EnableEndUserSpamNotifications
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is deprecated and no longer used. End-user quarantine notifications are controlled by quarantine policies as specified by the \*QuarantineTag parameters.
 
@@ -427,7 +427,7 @@ Accept wildcard characters: False
 
 ### -EnableLanguageBlockList
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EnableLanguageBlockList parameter enables or disables marking messages that were written in specific languages as spam. Valid values are:
 
@@ -448,7 +448,7 @@ Accept wildcard characters: False
 
 ### -EnableRegionBlockList
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EnableRegionBlockList parameter enables or disables marking messages that are sent from specific countries or regions as spam. Valid values are:
 
@@ -469,7 +469,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationCustomFromAddress
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is deprecated and no longer used. End-user quarantine notifications are controlled by quarantine policies as specified by the \*QuarantineTag parameters.
 
@@ -487,7 +487,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationCustomFromName
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is deprecated and no longer used. End-user quarantine notifications are controlled by quarantine policies as specified by the \*QuarantineTag parameters.
 
@@ -505,7 +505,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationCustomSubject
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is deprecated and no longer used. End-user quarantine notifications are controlled by quarantine policies as specified by the \*QuarantineTag parameters.
 
@@ -523,7 +523,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationFrequency
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is deprecated and no longer used. End-user quarantine notifications are controlled by quarantine policies as specified by the \*QuarantineTag parameters.
 ```yaml
@@ -540,7 +540,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationLanguage
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is deprecated and no longer used. End-user quarantine notifications are controlled by quarantine policies as specified by the \*QuarantineTag parameters.
 
@@ -558,7 +558,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationLimit
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -576,7 +576,7 @@ Accept wildcard characters: False
 
 ### -HighConfidencePhishAction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The HighConfidencePhishAction parameter specifies the action to take on messages that are marked as high confidence phishing (not phishing). Phishing messages use fraudulent links or spoofed domains to get personal information. Valid values are:
 
@@ -597,7 +597,7 @@ Accept wildcard characters: False
 
 ### -HighConfidencePhishQuarantineTag
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The HighConfidencePhishQuarantineTag parameter specifies the quarantine policy that's used on messages that are quarantined as high confidence phishing (the HighConfidencePhishAction parameter value is Quarantine). You can use any value that uniquely identifies the quarantine policy. For example:
 
@@ -625,7 +625,7 @@ Accept wildcard characters: False
 
 ### -HighConfidenceSpamAction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The HighConfidenceSpamAction parameter specifies the action to take on messages that are marked as high confidence spam (not spam, bulk email, phishing, or high confidence phishing). Valid values are:
 
@@ -650,7 +650,7 @@ Accept wildcard characters: False
 
 ### -HighConfidenceSpamQuarantineTag
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The HighConfidenceSpamQuarantineTag parameter specifies the quarantine policy that's used on messages that are quarantined as high confidence spam (the HighConfidenceSpamAction parameter value is Quarantine). You can use any value that uniquely identifies the quarantine policy. For example:
 
@@ -678,7 +678,7 @@ Accept wildcard characters: False
 
 ### -IncreaseScoreWithBizOrInfoUrls
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The IncreaseScoreWithBizOrInfoUrls parameter increases the spam score of messages that contain links to .biz or .info domains. Valid values are:
 
@@ -700,7 +700,7 @@ Accept wildcard characters: False
 
 ### -IncreaseScoreWithImageLinks
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The IncreaseScoreWithImageLinks parameter increases the spam score of messages that contain image links to remote websites. Valid values are:
 
@@ -722,7 +722,7 @@ Accept wildcard characters: False
 
 ### -IncreaseScoreWithNumericIps
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The IncreaseScoreWithNumericIps parameter increases the spam score of messages that contain links to IP addresses. Valid values are:
 
@@ -744,7 +744,7 @@ Accept wildcard characters: False
 
 ### -IncreaseScoreWithRedirectToOtherPort
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The IncreaseScoreWithRedirectToOtherPort parameter increases the spam score of messages that contain links that redirect to TCP ports other than 80 (HTTP), 8080 (alternate HTTP), or 443 (HTTPS). Valid values are:
 
@@ -766,7 +766,7 @@ Accept wildcard characters: False
 
 ### -InlineSafetyTipsEnabled
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The InlineSafetyTipsEnabled parameter specifies whether to enable or disable safety tips that are shown to recipients in messages. Valid values are:
 
@@ -787,7 +787,7 @@ Accept wildcard characters: False
 
 ### -IntraOrgFilterState
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The IntraOrgFilterState parameter specifies whether to enable anti-spam filtering for messages sent between internal users (users in the same organization). The action that's configured in the policy for the specified spam filter verdicts is taken on messages sent between internal users. Valid values are:
 
@@ -812,7 +812,7 @@ Accept wildcard characters: False
 
 ### -LanguageBlockList
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The LanguageBlockList parameter specifies the email content languages that are marked as spam when the EnableLanguageBlockList parameter value is $true. A valid value is a supported uppercase ISO 639-1 two-letter language code:
 
@@ -840,7 +840,7 @@ Accept wildcard characters: False
 
 ### -MakeDefault
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MakeDefault switch makes the specified spam filter policy the default spam filter policy. You don't need to specify a value with this switch.
 
@@ -860,7 +860,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamBulkMail
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamBulkMail parameter allows spam filtering to act on bulk email messages. Valid values are:
 
@@ -882,7 +882,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamEmbedTagsInHtml
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamEmbedTagsInHtml parameter marks a message as spam when the message contains HTML \<embed\> tags. Valid values are:
 
@@ -904,7 +904,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamEmptyMessages
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamEmptyMessages parameter marks a message as spam when the message contains no subject, no content in the message body, and no attachments. Valid values are:
 
@@ -926,7 +926,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamFormTagsInHtml
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamFormTagsInHtml parameter marks a message as spam when the message contains HTML \<form\> tags. Valid values are:
 
@@ -948,7 +948,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamFramesInHtml
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamFramesInHtml parameter marks a message as spam when the message contains HTML \<frame\> or \<iframe\> tags. Valid values are:
 
@@ -970,7 +970,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamFromAddressAuthFail
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamFromAddressAuthFail parameter marks a message as spam when Sender ID filtering encounters a hard fail. This setting combines an Sender Policy Framework (SPF) check with a Sender ID check to help protect against message headers that contain forged senders. Valid values are:
 
@@ -991,7 +991,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamJavaScriptInHtml
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamJavaScriptInHtml parameter marks a message as spam when the message contains JavaScript or VBScript. Valid values are:
 
@@ -1013,7 +1013,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamNdrBackscatter
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamNdrBackscatter parameter marks a message as spam when the message is a non-delivery report (also known as an NDR or bounce messages) sent to a forged sender (known as *backscatter*). Valid values are:
 
@@ -1034,7 +1034,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamObjectTagsInHtml
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamObjectTagsInHtml parameter marks a message as spam when the message contains HTML \<object\> tags. Valid values are:
 
@@ -1056,7 +1056,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamSensitiveWordList
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamSensitiveWordList parameter marks a message as spam when the message contains words from the sensitive words list. Microsoft maintains a dynamic but non-editable list of words that are associated with potentially offensive messages. Valid values are:
 
@@ -1078,7 +1078,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamSpfRecordHardFail
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamSpfRecordHardFail parameter marks a message as spam when SPF record checking encounters a hard fail. Valid values are:
 
@@ -1099,7 +1099,7 @@ Accept wildcard characters: False
 
 ### -MarkAsSpamWebBugsInHtml
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MarkAsSpamWebBugsInHtml parameter marks a message as spam when the message contains web bugs (also known as web beacons). Valid values are:
 
@@ -1121,7 +1121,7 @@ Accept wildcard characters: False
 
 ### -ModifySubjectValue
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ModifySubjectValue parameter specifies the text to prepend to the existing subject of messages when a spam filtering verdict parameter is set to the value ModifySubject. The following spam filtering verdict parameters can use the ModifySubject action:
 
@@ -1146,7 +1146,7 @@ Accept wildcard characters: False
 
 ### -PhishQuarantineTag
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The PhishQuarantineTag parameter specifies the quarantine policy that's used on messages that are quarantined as phishing (the PhishSpamAction parameter value is Quarantine). You can use any value that uniquely identifies the quarantine policy. For example:
 
@@ -1174,7 +1174,7 @@ Accept wildcard characters: False
 
 ### -PhishSpamAction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The PhishSpamAction parameter specifies the action to take on messages that are marked as phishing (not high confidence phishing). Phishing messages use fraudulent links or spoofed domains to get personal information. Valid values are:
 
@@ -1199,7 +1199,7 @@ Accept wildcard characters: False
 
 ### -PhishZapEnabled
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The PhishZapEnabled parameter enables or disables zero-hour auto purge (ZAP) to detect phishing in already delivered messages in Exchange Online mailboxes. Valid values are:
 
@@ -1222,7 +1222,7 @@ Accept wildcard characters: False
 
 ### -QuarantineRetentionPeriod
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The QuarantineRetentionPeriod parameter specifies the number of days that spam messages remain in quarantine when a spam filtering verdict parameter is set to the value Quarantine. All spam filtering verdict parameters can use the Quarantine action:
 
@@ -1250,7 +1250,7 @@ Accept wildcard characters: False
 
 ### -RedirectToRecipients
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The RedirectToRecipients parameter specifies the email addresses of replacement recipients when a spam filtering verdict parameter is set to the value Redirect. The following spam filtering verdict parameters can use the Redirect action:
 
@@ -1276,7 +1276,7 @@ Accept wildcard characters: False
 
 ### -RegionBlockList
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The RegionBlockList parameter specifies the source countries or regions that are marked as spam when the EnableRegionBlockList parameter value is $true. A valid value is a supported ISO 3166-1 two-letter country code:
 
@@ -1304,7 +1304,7 @@ Accept wildcard characters: False
 
 ### -SpamAction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SpamAction parameter specifies the action to take on messages that are marked as spam (not high confidence spam, bulk email, phishing, or high confidence phishing). Valid values are:
 
@@ -1329,7 +1329,7 @@ Accept wildcard characters: False
 
 ### -SpamQuarantineTag
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SpamQuarantineTag parameter specifies the quarantine policy that's used on messages that are quarantined as spam (the SpamAction parameter value is Quarantine). You can use any value that uniquely identifies the quarantine policy. For example:
 
@@ -1357,7 +1357,7 @@ Accept wildcard characters: False
 
 ### -SpamZapEnabled
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SpamZapEnabled parameter enables or disables zero-hour auto purge (ZAP) to detect spam in already delivered messages in Exchange Online mailboxes. Valid values are:
 
@@ -1380,7 +1380,7 @@ Accept wildcard characters: False
 
 ### -TestModeAction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The TestModeAction parameter specifies the additional action to take on messages when one or more IncreaseScoreWith\* or MarkAsSpam\* ASF parameters are set to the value Test. Valid values are:
 
@@ -1402,7 +1402,7 @@ Accept wildcard characters: False
 
 ### -TestModeBccToRecipients
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The TestModeBccToRecipients parameter specifies the blind carbon copy (Bcc) recipients to add to spam messages when the TestModeAction ASF parameter is set to the value BccMessage.
 
@@ -1424,7 +1424,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

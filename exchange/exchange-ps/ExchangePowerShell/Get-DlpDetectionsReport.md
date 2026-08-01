@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Security & Compliance
+applicable: Exchange Online, Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.ServerStatus-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -66,7 +66,7 @@ This example lists the DLP activities for November, 2018.
 
 ### -Action
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The Action parameter filters the report by the action taken by DLP policies. Valid values are:
 
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 
 ### -AggregateBy
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The AggregateBy parameter specifies the reporting period. Valid values are Hour, Day, or Summary. The default value is Day.
 
@@ -108,7 +108,7 @@ Accept wildcard characters: False
 
 ### -DlpCompliancePolicy
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The DlpCompliancePolicy parameter filters the report by the name of the DLP compliance policy. You can specify multiple policies separated by commas.
 
@@ -128,7 +128,7 @@ Accept wildcard characters: False
 
 ### -DlpComplianceRule
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The DlpComplianceRule parameter filters the report by the name of the DLP compliance rule. You can specify multiple rules separated by commas.
 
@@ -148,7 +148,7 @@ Accept wildcard characters: False
 
 ### -EndDate
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The EndDate parameter specifies the end date of the date range.
 

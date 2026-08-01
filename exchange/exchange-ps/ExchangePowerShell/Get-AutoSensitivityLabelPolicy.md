@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -44,7 +44,7 @@ This example returns detailed information about the autosensitivity label policy
 
 ### -Identity
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Identity parameter specifies the auto-labeling policy that you want to view. You can use any value that uniquely identifies the policy. For example:
 

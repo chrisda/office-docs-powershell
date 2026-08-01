@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -54,7 +54,7 @@ This cmdlet creates the rule for the Built-in protection preset security policy.
 
 ### -SafeAttachmentPolicy
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The SafeAttachmentPolicy parameter specifies the Safe Attachments policy that's associated with the Built-in preset security policy. Use the following command to identify the policy: `Get-SafeAttachmentPolicy | Where-Object -Property IsBuiltInProtection -eq -Value "True"`.
 
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 
 ### -SafeLinksPolicy
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The SafeLinksPolicy parameter specifies the Safe Links policy that's associated with the Built-in preset security policy. Use the following command to identify the policy: `Get-SafeLinksPolicy | Where-Object -Property IsBuiltInProtection -eq -Value "True"`.
 
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 
 ### -Comments
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Comments parameter specifies informative comments for the rule, such as what the rule is used for or how it has changed over time. The length of the comment can't exceed 1024 characters.
 
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -133,7 +133,7 @@ Accept wildcard characters: False
 
 ### -ExceptIfRecipientDomainIs
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ExceptIfRecipientDomainIs parameter specifies an exception that looks for recipients with email addresses in the specified domains. You can specify multiple domains separated by commas.
 
@@ -151,7 +151,7 @@ Accept wildcard characters: False
 
 ### -ExceptIfSentTo
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ExceptIfSentTo parameter specifies an exception that looks for recipients in messages. You can use any value that uniquely identifies the recipient. For example:
 
@@ -178,7 +178,7 @@ Accept wildcard characters: False
 
 ### -ExceptIfSentToMemberOf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ExceptIfSentToMemberOf parameter specifies an exception that looks for messages sent to members of groups. You can use any value that uniquely identifies the group. For example:
 
@@ -207,7 +207,7 @@ Accept wildcard characters: False
 
 ### -Name
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Name parameter specifies a unique name for the rule. The maximum length is 64 characters.
 
@@ -227,7 +227,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

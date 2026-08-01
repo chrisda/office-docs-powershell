@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -98,7 +98,7 @@ This example creates an autolabeling rule named "SocialSecurityRule" that is ass
 
 ### -Name
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Name parameter specifies a unique name for the auto-labeling policy rule. If the value contains spaces, enclose the value with quotation marks (").
 
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 
 ### -Workload
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Workload parameter specifies the workload. Valid values are:
 
@@ -180,7 +180,7 @@ Accept wildcard characters: False
 
 ### -AdvancedRule
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill AdvancedRule Description }}
 
@@ -264,7 +264,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -1132,7 +1132,7 @@ Accept wildcard characters: False
 
 ### -Policy
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Policy parameter specifies the auto-labeling policy that contains the auto-labeling policy rule. You can use any value that uniquely identifies the policy. For example:
 
@@ -1391,7 +1391,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The WhatIf switch doesn't work in Security & Compliance PowerShell.
 

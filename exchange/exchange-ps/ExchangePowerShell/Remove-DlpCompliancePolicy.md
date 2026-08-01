@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -49,7 +49,7 @@ This example removes a DLP policy specified by its name.
 
 ### -Identity
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Identity parameter specifies the DLP policy that you want to remove. You can use any value that uniquely identifies the policy. For example:
 
@@ -72,7 +72,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The WhatIf switch doesn't work in Security & Compliance PowerShell.
 

@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -69,7 +69,7 @@ This example gets all of the DLP policies in an environment and displays the dis
 
 ### -Identity
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Identity parameter specifies the DLP policy that you want to view. You can use any value that uniquely identifies the policy. For example:
 
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 
 ### -DistributionDetail
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The DistributionDetail switch returns detailed policy distribution information in the DistributionResults property. You don't need to specify a value with this switch.
 
@@ -132,7 +132,7 @@ Accept wildcard characters: False
 
 ### -ForceValidate
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill ForceValidate Description }}
 
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 
 ### -IncludeExtendedProperties
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill IncludeExtendedProperties Description }}
 
@@ -168,7 +168,7 @@ Accept wildcard characters: False
 
 ### -IncludeRulesMetadata
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill IncludeRulesMetadata Description }}
 
@@ -204,7 +204,7 @@ Accept wildcard characters: False
 
 ### -IncludeSimulationResults
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill IncludeSimulationResults Description }}
 
@@ -222,7 +222,7 @@ Accept wildcard characters: False
 
 ### -Summary
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill Summary Description }}
 

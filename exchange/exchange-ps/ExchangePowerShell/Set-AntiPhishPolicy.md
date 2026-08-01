@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -90,7 +90,7 @@ In Microsoft Defender for Office 365, this example modifies the default antiphis
 
 ### -Identity
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the antiphish policy that you want to modify. You can use any value that uniquely identifies the policy. For example:
 
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 
 ### -AdminDisplayName
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The AdminDisplayName parameter specifies a description for the policy. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -130,7 +130,7 @@ Accept wildcard characters: False
 
 ### -AuthenticationFailAction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This setting is part of spoof protection.
 
@@ -153,7 +153,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -174,7 +174,7 @@ Accept wildcard characters: False
 
 ### -DmarcQuarantineAction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This setting is part of spoof protection.
 
@@ -197,7 +197,7 @@ Accept wildcard characters: False
 
 ### -DmarcRejectAction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This setting is part of spoof protection.
 
@@ -222,7 +222,7 @@ Accept wildcard characters: False
 
 ### -Enabled
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -246,7 +246,7 @@ Accept wildcard characters: False
 
 ### -EnableFirstContactSafetyTips
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EnableFirstContactSafetyTips parameter specifies whether to enable or disable the safety tip that's shown when recipients first receive an email from a sender or do not often receive email from a sender. Valid values are:
 
@@ -267,7 +267,7 @@ Accept wildcard characters: False
 
 ### -EnableMailboxIntelligence
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -290,7 +290,7 @@ Accept wildcard characters: False
 
 ### -EnableMailboxIntelligenceProtection
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -317,7 +317,7 @@ Accept wildcard characters: False
 
 ### -EnableOrganizationDomainsProtection
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -340,7 +340,7 @@ Accept wildcard characters: False
 
 ### -EnableSimilarDomainsSafetyTips
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -363,7 +363,7 @@ Accept wildcard characters: False
 
 ### -EnableSimilarUsersSafetyTips
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -386,7 +386,7 @@ Accept wildcard characters: False
 
 ### -EnableSpoofIntelligence
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This setting is part of spoof protection.
 
@@ -409,7 +409,7 @@ Accept wildcard characters: False
 
 ### -EnableTargetedDomainsProtection
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -432,7 +432,7 @@ Accept wildcard characters: False
 
 ### -EnableTargetedUserProtection
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -455,7 +455,7 @@ Accept wildcard characters: False
 
 ### -EnableUnauthenticatedSender
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This setting is part of spoof protection.
 
@@ -483,7 +483,7 @@ Accept wildcard characters: False
 
 ### -EnableUnusualCharactersSafetyTips
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -506,7 +506,7 @@ Accept wildcard characters: False
 
 ### -EnableViaTag
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This setting is part of spoof protection.
 
@@ -534,7 +534,7 @@ Accept wildcard characters: False
 
 ### -ExcludedDomains
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -558,7 +558,7 @@ Accept wildcard characters: False
 
 ### -ExcludedSenders
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -580,7 +580,7 @@ Accept wildcard characters: False
 
 ### -HonorDmarcPolicy
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This setting is part of spoof protection.
 
@@ -603,7 +603,7 @@ Accept wildcard characters: False
 
 ### -ImpersonationProtectionState
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -627,7 +627,7 @@ Accept wildcard characters: False
 
 ### -MailboxIntelligenceProtectionAction
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -656,7 +656,7 @@ Accept wildcard characters: False
 
 ### -MailboxIntelligenceProtectionActionRecipients
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -678,7 +678,7 @@ Accept wildcard characters: False
 
 ### -MailboxIntelligenceQuarantineTag
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -708,7 +708,7 @@ Accept wildcard characters: False
 
 ### -MakeDefault
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MakeDefault switch makes this antiphish policy the default antiphish policy. You don't need to specify a value with this switch.
 
@@ -728,7 +728,7 @@ Accept wildcard characters: False
 
 ### -PhishThresholdLevel
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of advanced settings and is available only in Microsoft Defender for Office 365.
 
@@ -753,7 +753,7 @@ Accept wildcard characters: False
 
 ### -PolicyTag
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -771,7 +771,7 @@ Accept wildcard characters: False
 
 ### -SpoofQuarantineTag
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SpoofQuarantineTag specifies the quarantine policy that's used on messages that are quarantined by spoof intelligence (the AuthenticationFailAction parameter value is Quarantine). You can use any value that uniquely identifies the quarantine policy. For example:
 
@@ -799,7 +799,7 @@ Accept wildcard characters: False
 
 ### -TargetedDomainActionRecipients
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -821,7 +821,7 @@ Accept wildcard characters: False
 
 ### -TargetedDomainProtectionAction
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -848,7 +848,7 @@ Accept wildcard characters: False
 
 ### -TargetedDomainQuarantineTag
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -878,7 +878,7 @@ Accept wildcard characters: False
 
 ### -TargetedDomainsToProtect
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -900,7 +900,7 @@ Accept wildcard characters: False
 
 ### -TargetedUserActionRecipients
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -922,7 +922,7 @@ Accept wildcard characters: False
 
 ### -TargetedUserProtectionAction
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -949,7 +949,7 @@ Accept wildcard characters: False
 
 ### -TargetedUserQuarantineTag
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -979,7 +979,7 @@ Accept wildcard characters: False
 
 ### -TargetedUsersToProtect
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This setting is part of impersonation protection and is available only in Microsoft Defender for Office 365.
 
@@ -1006,7 +1006,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

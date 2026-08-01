@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -55,7 +55,7 @@ This example enables Safe Documents and Safe Attachments for SharePoint, OneDriv
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the policy that you want to modify. There's only one policy named Default.
 
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 
 ### -AllowSafeDocsOpen
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The AllowSafeDocsOpen parameter specifies whether users can click through and bypass the Protected View container even when Safe Documents identifies a file as malicious. Valid values are:
 
@@ -96,7 +96,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -117,7 +117,7 @@ Accept wildcard characters: False
 
 ### -EnableATPForSPOTeamsODB
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableATPForSPOTeamsODB parameter enables or disables Safe Attachments for SharePoint, OneDrive, and Microsoft Teams. Valid values are:
 
@@ -138,7 +138,7 @@ Accept wildcard characters: False
 
 ### -EnableSafeDocs
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableSafeDocs parameter enables or disables Safe Documents in organizations with Microsoft 365 A5 or Microsoft 365 E5 Security licenses. Valid values are:
 
@@ -161,7 +161,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

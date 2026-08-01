@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -57,7 +57,7 @@ This example lists all the rules included in the DLP compliance policy named "PI
 
 ### -Identity
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Identity parameter specifies the DLP rule that you want to view. You can use any value that uniquely identifies the rule. For example:
 
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 
 ### -IncludeExecutionRuleGuids
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill IncludeExecutionRuleGuids Description }}
 
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 
 ### -Policy
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Policy parameter specifies the DLP policy that contains the rules. Using this parameter returns all rules that are assigned to the specified policy. Valid input for this parameter is any value that uniquely identifies the policy. For example
 

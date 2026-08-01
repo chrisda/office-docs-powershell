@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -41,7 +41,7 @@ This example shows the rule for the Built-in protection preset security policy.
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the rule that you want to view. You can use any value that uniquely identifies the rule. For example:
 
@@ -67,7 +67,7 @@ Accept wildcard characters: False
 
 ### -State
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The State parameter filters the results by the state of the rule. Valid values are:
 

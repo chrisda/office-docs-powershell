@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -53,7 +53,7 @@ Although the previous command should return only one rule, a rule that's pending
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the SecOps override rule that you want to view. You can use any value that uniquely identifies the rule. For example:
 
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 
 ### -Policy
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Policy parameter filters the results by SecOps mailbox override policy. You can use any value that uniquely identifies the policy. For example:
 
@@ -139,7 +139,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 

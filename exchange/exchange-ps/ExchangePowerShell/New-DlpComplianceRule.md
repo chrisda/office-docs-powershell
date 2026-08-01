@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -324,7 +324,7 @@ This is an example of applying a CCSI-based DLP rule that should be handled by a
 
 ### -Name
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Name parameter specifies the unique name of the new DLP rule. If the value contains spaces, enclose the value in quotation marks.
 
@@ -342,7 +342,7 @@ Accept wildcard characters: False
 
 ### -Policy
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Policy parameter specifies the existing DLP policy that contains the new DLP rule. You can use any value that uniquely identifies the policy. For example:
 
@@ -428,7 +428,7 @@ Accept wildcard characters: False
 
 ### -AdvancedRule
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The AdvancedRule parameter uses complex rule syntax that supports multiple AND, OR, and NOT operators and nested groups.
 
@@ -578,7 +578,7 @@ Accept wildcard characters: False
 
 ### -BlockAccess
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The BlockAccess parameter specifies an action for the DLP rule that blocks access to the source item when the conditions of the rule are met. Valid values are:
 
@@ -599,7 +599,7 @@ Accept wildcard characters: False
 
 ### -BlockAccessScope
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The BlockAccessScope parameter specifies the scope of the block access action. Valid values are:
 
@@ -639,7 +639,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -2382,7 +2382,7 @@ Accept wildcard characters: False
 
 ### -GenerateAlert
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The GenerateAlert parameter specifies an action for the DLP rule that notifies the specified users when the conditions of the rule are met. Valid values are:
 
@@ -2737,7 +2737,7 @@ Accept wildcard characters: False
 
 ### -NotifyAllowOverride
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The NotifyAllowOverride parameter specifies the notification override options when the conditions of the rule are met. Valid values are:
 
@@ -2974,7 +2974,7 @@ Accept wildcard characters: False
 
 ### -NotifyUser
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The NotifyUser parameter specifies an action for the DLP rule that notifies the specified users when the conditions of the rule are met. Valid values are:
 
@@ -2999,7 +2999,7 @@ Accept wildcard characters: False
 
 ### -NotifyUserType
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The NotifyUserType parameter specifies the type of notification that's used for the rule. Valid values are:
 
@@ -3319,7 +3319,7 @@ Accept wildcard characters: False
 
 ### -ReportSeverityLevel
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The ReportSeverityLevel parameter specifies the severity level of the incident report for content detections based on the rule. Valid values are:
 
@@ -3667,7 +3667,7 @@ Accept wildcard characters: False
 
 ### -SharepointMoveToQuarantineLocation
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill SharepointMoveToQuarantineLocation Description }}
 
@@ -3852,7 +3852,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The WhatIf switch doesn't work in Security & Compliance PowerShell.
 

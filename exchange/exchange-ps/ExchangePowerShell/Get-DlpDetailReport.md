@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Security & Compliance
+applicable: Exchange Online, Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.ServerStatus-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -74,7 +74,7 @@ The following example lists the details of all the DLP policy activities defined
 
 ### -Action
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The Action parameter filters the report by the action taken by DLP policies. Valid values are:
 
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 
 ### -Actor
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The Actor parameter filters the report by the user who last modified the item. You can enter multiple users separated by commas.
 
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 
 ### -DlpCompliancePolicy
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The DlpCompliancePolicy parameter filters the report by the name of the DLP compliance policy. You can specify multiple policies separated by commas.
 
@@ -138,7 +138,7 @@ Accept wildcard characters: False
 
 ### -DlpComplianceRule
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The DlpComplianceRule parameter filters the report by the name of the DLP compliance rule. You can specify multiple rules separated by commas.
 
@@ -158,7 +158,7 @@ Accept wildcard characters: False
 
 ### -EndDate
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The EndDate parameter specifies the end date of the date range.
 
@@ -178,7 +178,7 @@ Accept wildcard characters: False
 
 ### -EventType
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The EventType parameter filters the report by the event type. Valid values are:
 
@@ -208,7 +208,7 @@ Accept wildcard characters: False
 
 ### -Page
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The Page parameter specifies the page number of the results you want to view. Valid input for this parameter is an integer between 1 and 1000. The default value is 1.
 
@@ -226,7 +226,7 @@ Accept wildcard characters: False
 
 ### -PageSize
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The PageSize parameter specifies the maximum number of entries per page. Valid input for this parameter is an integer between 1 and 5000. The default value is 1000.
 
@@ -244,7 +244,7 @@ Accept wildcard characters: False
 
 ### -Source
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The Source parameter filters the report by workload. Valid values are:
 
@@ -268,7 +268,7 @@ Accept wildcard characters: False
 
 ### -StartDate
 
-> Applicable: Exchange Online, Security & Compliance
+> Applicable: Exchange Online, Security & Compliance, Defender for Office 365
 
 The StartDate parameter specifies the start date of the date range.
 

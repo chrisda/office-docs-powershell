@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -50,7 +50,7 @@ This example shows detailed information about the antiphish policy named Office 
 
 ### -Identity
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the antiphish policy that you want to view. You can use any value that uniquely identifies the policy. For example:
 
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 
 ### -Advanced
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Advanced switch filters the properties that are returned to the advanced settings in the policy. For example:
 
@@ -99,7 +99,7 @@ Accept wildcard characters: False
 
 ### -Impersonation
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Impersonation switch filters the properties that are returned to the impersonation settings in the policy. For example:
 
@@ -141,7 +141,7 @@ Accept wildcard characters: False
 
 ### -Spoof
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Spoof switch filters the properties that are returned to the spoof settings in the policy. For example:
 
