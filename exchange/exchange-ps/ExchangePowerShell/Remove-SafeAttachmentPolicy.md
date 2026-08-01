@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -45,7 +45,7 @@ This example removes the safe attachment policy named Block Attachments Policy.
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the safe attachment policy that you want to remove.
 
@@ -69,7 +69,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 
 ### -Force
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Force switch hides warning or confirmation messages. You don't need to specify a value with this switch.
 
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

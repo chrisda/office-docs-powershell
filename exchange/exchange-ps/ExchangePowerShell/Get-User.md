@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.RolesAndAccess-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -104,7 +104,7 @@ This example uses the Filter parameter to retrieve information about all users t
 
 ### -Identity
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the user that you want to view. You can use any value that uniquely identifies the user. For example:
 
@@ -360,7 +360,7 @@ Accept wildcard characters: False
 
 ### -IsVIP
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is available only in the cloud-based service.
 

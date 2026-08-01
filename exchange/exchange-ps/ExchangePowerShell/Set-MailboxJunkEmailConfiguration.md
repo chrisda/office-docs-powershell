@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.RolesAndAccess-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -81,7 +81,7 @@ This example identifies mailboxes where contacts are treated as trusted senders 
 
 ### -Identity
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the mailbox that you want to modify. You can use any value that uniquely identifies the mailbox. For example:
 
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 
 ### -BlockedSendersAndDomains
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Defender for Office 365
 
 The BlockedSendersAndDomains parameter specifies the Blocked Senders list, which is a list of sender email addresses and domains whose messages are automatically sent to the Junk Email folder. This parameter corresponds to the Outlook on the web setting: Move email from these senders or domains to my Junk Email folder.
 
@@ -132,7 +132,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -153,7 +153,7 @@ Accept wildcard characters: False
 
 ### -ContactsTrusted
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Defender for Office 365
 
 The ContactsTrusted parameter specifies whether the contacts in the Contacts folder are treated as trusted senders. This parameter corresponds to the Outlook on the web setting: Trust email from my contacts. Valid values are:
 
@@ -174,7 +174,7 @@ Accept wildcard characters: False
 
 ### -DomainController
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Defender for Office 365
 
 This parameter is available only in on-premises Exchange.
 
@@ -194,7 +194,7 @@ Accept wildcard characters: False
 
 ### -Enabled
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Defender for Office 365
 
 The Enabled parameter enables or disables the junk email rule on the mailbox (a hidden Inbox rule named Junk E-mail Rule). Valid values are:
 
@@ -231,7 +231,7 @@ Accept wildcard characters: False
 
 ### -FailOnError
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is available only in the cloud-based service.
 
@@ -251,7 +251,7 @@ Accept wildcard characters: False
 
 ### -IgnoreDefaultScope
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Defender for Office 365
 
 The IgnoreDefaultScope switch tells the command to ignore the default recipient scope setting for the Exchange PowerShell session, and to use the entire forest as the scope. You don't need to specify a value with this switch.
 
@@ -274,7 +274,7 @@ Accept wildcard characters: False
 
 ### -SenderScreeningEnabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is available only in the cloud-based service.
 
@@ -294,7 +294,7 @@ Accept wildcard characters: False
 
 ### -TrustedListsOnly
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Defender for Office 365
 
 The TrustedListsOnly parameter specifies that only messages from senders in the Safe Senders list are delivered to the Inbox. All other messages are treated as junk email. This parameter corresponds to the Outlook on the web setting: Don't trust email unless it comes from someone in my Safe Senders and Recipients list. Valid values are:
 
@@ -315,7 +315,7 @@ Accept wildcard characters: False
 
 ### -TrustedRecipientsAndDomains
 
-> Applicable: Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online
+> Applicable: Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -333,7 +333,7 @@ Accept wildcard characters: False
 
 ### -TrustedSendersAndDomains
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Defender for Office 365
 
 The TrustedSendersAndDomains parameter specifies the Safe Senders list and Safe Recipients list, which are lists of email addresses and domains. Messages from these senders that reach the mailbox are never delivered to the Junk Email folder, regardless of the content. This parameter corresponds to the Outlook on the web setting: Don't move email from these senders or domains to my Junk Email folder.
 
@@ -363,7 +363,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

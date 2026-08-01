@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -59,7 +59,7 @@ This example modifies the existing Safe Links policy named Engineering Block URL
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the Safe Links policy that you want to modify. You can use any value that uniquely identifies the policy. For example:
 
@@ -81,7 +81,7 @@ Accept wildcard characters: False
 
 ### -AdminDisplayName
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The AdminDisplayName parameter specifies a description for the policy. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -99,7 +99,7 @@ Accept wildcard characters: False
 
 ### -AllowClickThrough
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The AllowClickThrough parameter specifies whether to allow users to click through to the original URL on warning pages. Valid values are:
 
@@ -122,7 +122,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -143,7 +143,7 @@ Accept wildcard characters: False
 
 ### -CustomNotificationText
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The custom notification text specifies the customized notification text to show to users. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -161,7 +161,7 @@ Accept wildcard characters: False
 
 ### -DeliverMessageAfterScan
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The DeliverMessageAfterScan parameter specifies whether to deliver email messages only after Safe Links scanning is complete. Valid values are:
 
@@ -182,7 +182,7 @@ Accept wildcard characters: False
 
 ### -DisableUrlRewrite
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The DisableUrlRewrite parameter specifies whether to rewrite (wrap) URLs in email messages. Valid values are:
 
@@ -205,7 +205,7 @@ Accept wildcard characters: False
 
 ### -DoNotRewriteUrls
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The DoNotRewriteUrls parameter specifies the URLs that are not rewritten by Safe Links scanning. The list of entries allows users who are included in the policy to access the specified URLs that would otherwise be blocked by Safe Links.
 
@@ -227,7 +227,7 @@ Accept wildcard characters: False
 
 ### -EnableForInternalSenders
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableForInternalSenders parameter specifies whether the Safe Links policy is applied to messages sent between internal senders and internal recipients within the same Exchange Online organization. Valid values are:
 
@@ -248,7 +248,7 @@ Accept wildcard characters: False
 
 ### -EnableOrganizationBranding
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableOrganizationBranding parameter specifies whether your organization's logo is displayed on Safe Links warning and notification pages. Valid values are:
 
@@ -269,7 +269,7 @@ Accept wildcard characters: False
 
 ### -EnableSafeLinksForEmail
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableSafeLinksForEmail parameter specifies whether to enable Safe Links protection for email messages. Valid values are:
 
@@ -290,7 +290,7 @@ Accept wildcard characters: False
 
 ### -EnableSafeLinksForOffice
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableSafeLinksForOffice parameter specifies whether to enable Safe Links protection for supported Office desktop, mobile, or web apps. Valid values are:
 
@@ -313,7 +313,7 @@ Accept wildcard characters: False
 
 ### -EnableSafeLinksForTeams
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableSafeLinksForTeams parameter specifies whether Safe Links is enabled for Microsoft Teams. Valid values are:
 
@@ -334,7 +334,7 @@ Accept wildcard characters: False
 
 ### -LocalizedNotificationTextList
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill LocalizedNotificationTextList Description }}
 
@@ -352,7 +352,7 @@ Accept wildcard characters: False
 
 ### -ScanUrls
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ScanUrls parameter specifies whether to enable or disable real-time scanning of clicked links in email messages. Valid values are:
 
@@ -373,7 +373,7 @@ Accept wildcard characters: False
 
 ### -TrackClicks
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The TrackClicks parameter specifies whether to track user clicks related to Safe Links protection of links. Valid values are:
 
@@ -394,7 +394,7 @@ Accept wildcard characters: False
 
 ### -UseTranslatedNotificationText
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The UseTranslatedNotificationText specifies whether to use Microsoft Translator to automatically localize the custom notification text that you specified with the CustomNotificationText parameter. Valid values are:
 
@@ -415,7 +415,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -57,7 +57,7 @@ This example exports the same list of spoofed senders to a CSV file.
 
 ### -Identity
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter is available but isn't used.
 

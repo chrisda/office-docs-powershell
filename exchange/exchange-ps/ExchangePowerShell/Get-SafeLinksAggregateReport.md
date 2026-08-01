@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.ServerStatus-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -56,7 +56,7 @@ This example returns results summarized by Email Client and Teams results for th
 
 ### -Action
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Action parameter filters the results by action. Valid values are:
 
@@ -85,7 +85,7 @@ Accept wildcard characters: False
 
 ### -AppNameList
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The AppNameList parameter filters the results by the app where the link was found. Valid values are:
 
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 
 ### -EndDate
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EndDate parameter specifies the end date of the date range.
 
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 
 ### -StartDate
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The StartDate parameter specifies the start date of the date range.
 
@@ -153,7 +153,7 @@ Accept wildcard characters: False
 
 ### -SummarizeBy
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The SummarizeBy parameter returns totals based on the values you specify. If your report filters data using any of the values accepted by this parameter, you can use the SummarizeBy parameter to summarize the results based on those values. To decrease the number of rows returned in the report, consider using the SummarizeBy parameter. Summarizing reduces the amount of data that's retrieved for the report, and delivers the report faster. For example, instead of seeing each instance of a specific value of Action or AppNameList on an individual row in the report, you can use the SummarizeBy parameter to see the total number of instances of that specific Action or App on one row in the report.
 

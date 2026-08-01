@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -49,7 +49,7 @@ This example modifies the existing Teams protection policy rule by excluding rec
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the Teams protection policy rule that you want to modify. There's only one Teams protection policy rule in an organization named Teams Protection Policy Rule.
 
@@ -67,7 +67,7 @@ Accept wildcard characters: False
 
 ### -Comments
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Comments parameter specifies informative comments for the rule, such as what the rule is used for or how it has changed over time. The length of the comment can't exceed 1024 characters.
 
@@ -85,7 +85,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -106,7 +106,7 @@ Accept wildcard characters: False
 
 ### -ExceptIfRecipientDomainIs
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ExceptIfRecipientDomainIs parameter specifies an exception to ZAP for Teams protection that looks for recipients of Teams messages with email addresses in the specified domains.
 
@@ -154,7 +154,7 @@ Accept wildcard characters: False
 
 ### -ExceptIfSentTo
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ExceptIfSentTo parameter specifies an exception to ZAP for Teams protection that looks for recipients of Teams messages. You can use any value that uniquely identifies the recipient. For example:
 
@@ -209,7 +209,7 @@ Accept wildcard characters: False
 
 ### -ExceptIfSentToMemberOf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ExceptIfSentToMemberOf parameter specifies an exception to ZAP for Teams protection that looks for Teams messages sent to members of distribution groups or mail-enabled security groups. You can use any value that uniquely identifies the group. For example:
 
@@ -264,7 +264,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -39,7 +39,7 @@ This example returns detailed information about the one and only phishing simula
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the phishing simulation override policy that you want to view. You can use any value that uniquely identifies the policy. For example:
 

@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -41,7 +41,7 @@ This example returns detailed information about the one and only SecOps mailbox 
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the SecOps override policy that you want to modify. You can use any value that uniquely identifies the policy. For example:
 

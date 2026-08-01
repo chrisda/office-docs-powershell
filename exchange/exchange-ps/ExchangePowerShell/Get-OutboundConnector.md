@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -45,7 +45,7 @@ This example displays detailed information about the Outbound connector named Co
 
 ### -Identity
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the Outbound connector that you want to view. You can use any value that uniquely identifies the connector. For example:
 
@@ -69,7 +69,7 @@ Accept wildcard characters: False
 
 ### -IncludeTestModeConnectors
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The IncludeTestModeConnectors parameter filters the results by Outbound connectors that are in test mode. Valid values are:
 
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 
 ### -IsTransportRuleScoped
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The IsTransportRuleScoped parameter filters the results by Outbound connectors that are scoped to transport rules (also known as mail flow rules). Valid values are:
 
@@ -115,7 +115,7 @@ Accept wildcard characters: False
 
 ### -ResultSize
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ResultSize parameter specifies the maximum number of results to return. If you want to return all requests that match the query, use unlimited for the value of this parameter. The default value is 1000.
 

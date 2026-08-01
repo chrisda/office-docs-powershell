@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.ServerStatus-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -75,7 +75,7 @@ This example returns filters the results by the following information:
 
 ### -Action
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Action parameter filters the results by action. Valid values are:
 
@@ -106,7 +106,7 @@ Accept wildcard characters: False
 
 ### -AppNameList
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The AppNameList parameter filters the results by the app where the link was found. Valid values are:
 
@@ -130,7 +130,7 @@ Accept wildcard characters: False
 
 ### -Domain
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Domain parameter filters the results by the domain in the URL.
 
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 
 ### -EndDate
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EndDate parameter specifies the end date of the date range.
 
@@ -172,7 +172,7 @@ Accept wildcard characters: False
 
 ### -Page
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Page parameter specifies the page number of the results you want to view. Valid input for this parameter is an integer between 1 and 1000. The default value is 1.
 
@@ -190,7 +190,7 @@ Accept wildcard characters: False
 
 ### -PageSize
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The PageSize parameter specifies the maximum number of entries per page. Valid input for this parameter is an integer between 1 and 5000. The default value is 1000.
 
@@ -208,7 +208,7 @@ Accept wildcard characters: False
 
 ### -RecipientAddress
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The RecipientAddress parameter filters the results by the recipient's email address.
 
@@ -228,7 +228,7 @@ Accept wildcard characters: False
 
 ### -StartDate
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The StartDate parameter specifies the start date of the date range.
 

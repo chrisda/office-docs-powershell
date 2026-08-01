@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -39,7 +39,7 @@ This example returns detailed information about the report submission rule in yo
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the report submission rule that you want to view. The default rule is named DefaultReportSubmissionRule.
 
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 
 ### -State
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The State parameter filters the results by whether the report submission rule is enabled or disabled. Valid values are:
 

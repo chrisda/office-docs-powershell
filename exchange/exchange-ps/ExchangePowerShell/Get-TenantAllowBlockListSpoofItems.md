@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -71,7 +71,7 @@ This example exports the same list of spoofed pairs to a CSV file.
 
 ### -Identity
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter is available but isn't used.
 
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 
 ### -Action
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Action parameter filters the results by action type. Valid values are:
 
@@ -112,7 +112,7 @@ Accept wildcard characters: False
 
 ### -SpoofType
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SpoofType parameter filters the results by spoof type. Valid values are:
 

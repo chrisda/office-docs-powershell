@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -61,7 +61,7 @@ This example creates the report submission rule. The reporting mailbox is userre
 
 ### -Name
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Name parameter specifies the name of the report submission rule. When the rule is automatically created, the name of the rule is DefaultReportSubmissionRule. We recommend using this value to avoid confusion.
 
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 
 ### -ReportSubmissionPolicy
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ReportSubmissionPolicy parameter specifies the report submission policy that's associated with this rule. The only available policy is named DefaultReportSubmissionPolicy.
 
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 
 ### -Comments
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Comments parameter specifies informative comments for the rule, such as what the rule is used for or how it has changed over time. The length of the comment can't exceed 1024 characters.
 
@@ -115,7 +115,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -136,7 +136,7 @@ Accept wildcard characters: False
 
 ### -Enabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Enabled parameter specifies whether the rule is enabled or disabled. Valid values are:
 
@@ -159,7 +159,7 @@ Accept wildcard characters: False
 
 ### -SentTo
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The SentTo parameter specifies the email address of the reporting mailbox in Exchange Online where user reported messages are sent.
 
@@ -189,7 +189,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

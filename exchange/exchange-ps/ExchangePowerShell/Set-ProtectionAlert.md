@@ -1,5 +1,5 @@
 ---
-applicable: Security & Compliance
+applicable: Security & Compliance, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -74,7 +74,7 @@ This example modifies an alert so that even though it's configured for aggregate
 
 ### -Identity
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Identity parameter specifies the alert policy that you want to modify. You can use any value that uniquely identifies the alert policy. For example:
 
@@ -96,7 +96,7 @@ Accept wildcard characters: False
 
 ### -AggregationType
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The AggregationType parameter specifies the how the alert policy triggers alerts for multiple occurrences of monitored activity. Valid values are:
 
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 
 ### -AlertBy
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The AlertBy parameter specifies the scope for aggregated alert policies. Valid values are determined by the ThreatType parameter value:
 
@@ -143,7 +143,7 @@ Accept wildcard characters: False
 
 ### -AlertFor
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -161,7 +161,7 @@ Accept wildcard characters: False
 
 ### -Category
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Category parameter specifies a category for the alert policy. Valid values are:
 
@@ -190,7 +190,7 @@ Accept wildcard characters: False
 
 ### -Comment
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Comment parameter specifies an optional comment. If you specify a value that contains spaces, enclose the value in quotation marks ("), for example: "This is an admin note".
 
@@ -208,7 +208,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -229,7 +229,7 @@ Accept wildcard characters: False
 
 ### -Description
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Description parameter specifies descriptive text for the alert policy. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -247,7 +247,7 @@ Accept wildcard characters: False
 
 ### -Disabled
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Disabled parameter enables or disables the alert policy. Valid values are:
 
@@ -268,7 +268,7 @@ Accept wildcard characters: False
 
 ### -Filter
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Filter parameter uses OPATH syntax to filter the results by the specified properties and values. The search criteria uses the syntax `"Property -ComparisonOperator 'Value'"`.
 
@@ -340,7 +340,7 @@ Accept wildcard characters: False
 
 ### -NotificationCulture
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The NotificationCulture parameter specifies the language or locale that's used for notifications.
 
@@ -360,7 +360,7 @@ Accept wildcard characters: False
 
 ### -NotificationEnabled
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill NotificationEnabled Description }}
 
@@ -378,7 +378,7 @@ Accept wildcard characters: False
 
 ### -NotifyUser
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -396,7 +396,7 @@ Accept wildcard characters: False
 
 ### -NotifyUserOnFilterMatch
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The NotifyUserOnFilterMatch parameter specifies whether to trigger an alert for a single event when the alert policy is configured for aggregated activity. Valid values are:
 
@@ -419,7 +419,7 @@ Accept wildcard characters: False
 
 ### -NotifyUserSuppressionExpiryDate
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The NotifyUserSuppressionExpiryDate parameter specifies whether to temporarily suspend notifications for the alert policy. Until the specified date-time, no notifications are sent for detected activities.
 
@@ -439,7 +439,7 @@ Accept wildcard characters: False
 
 ### -NotifyUserThrottleThreshold
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The NotifyUserThrottleThreshold parameter specifies the maximum number of notifications for the alert policy within the time period specified by the NotifyUserThrottleWindow parameter. Once the maximum number of notifications is reached in the time period, no more notifications are sent for the alert. Valid values are:
 
@@ -460,7 +460,7 @@ Accept wildcard characters: False
 
 ### -NotifyUserThrottleWindow
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The NotifyUserThrottleWindow parameter specifies the time interval in minutes that's used by the NotifyUserThrottleThreshold parameter. Valid values are:
 
@@ -481,7 +481,7 @@ Accept wildcard characters: False
 
 ### -Operation
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Operation parameter specifies the activities that are monitored by the alert policy. For the list of available activities, see the Audited activities tab at [Audited activities](https://learn.microsoft.com/purview/audit-log-activities).
 
@@ -503,7 +503,7 @@ Accept wildcard characters: False
 
 ### -PrivacyManagementScopedSensitiveInformationTypes
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill PrivacyManagementScopedSensitiveInformationTypes Description }}
 
@@ -521,7 +521,7 @@ Accept wildcard characters: False
 
 ### -PrivacyManagementScopedSensitiveInformationTypesForCounting
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill PrivacyManagementScopedSensitiveInformationTypesForCounting Description }}
 
@@ -539,7 +539,7 @@ Accept wildcard characters: False
 
 ### -PrivacyManagementScopedSensitiveInformationTypesThreshold
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill PrivacyManagementScopedSensitiveInformationTypesThreshold Description }}
 
@@ -557,7 +557,7 @@ Accept wildcard characters: False
 
 ### -Severity
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Severity parameter specifies the severity of the detection. Valid values are:
 
@@ -579,7 +579,7 @@ Accept wildcard characters: False
 
 ### -Threshold
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The Threshold parameter specifies the number of detections that must be exceeded within the time period defined by the TimeWindow parameter to trigger the alert policy. A valid value is an integer that's greater than or equal to 3.
 
@@ -599,7 +599,7 @@ Accept wildcard characters: False
 
 ### -TimeWindow
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The TimeWindow parameter specifies the time interval in minutes for number of detections specified by the Threshold parameter. A valid value is an integer that's greater than 60 (one hour).
 
@@ -619,7 +619,7 @@ Accept wildcard characters: False
 
 ### -VolumeThreshold
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 {{ Fill VolumeThreshold Description }}
 
@@ -637,7 +637,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 The WhatIf switch doesn't work in Security & Compliance PowerShell.
 

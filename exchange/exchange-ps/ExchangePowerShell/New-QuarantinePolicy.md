@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -66,7 +66,7 @@ To assign Limited access permissions, use the value 27. To assign Full access pe
 
 ### -Name
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Name parameter specifies a unique name for the quarantine policy. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -84,7 +84,7 @@ Accept wildcard characters: False
 
 ### -AdminDisplayName
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The AdminDisplayName parameter specifies a description for the quarantine policy. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -102,7 +102,7 @@ Accept wildcard characters: False
 
 ### -AdminNotificationFrequencyInDays
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 
 ### -AdminNotificationLanguage
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -139,7 +139,7 @@ Accept wildcard characters: False
 
 ### -AdminNotificationsEnabled
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -157,7 +157,7 @@ Accept wildcard characters: False
 
 ### -AdminQuarantinePermissionsList
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -175,7 +175,7 @@ Accept wildcard characters: False
 
 ### -CustomDisclaimer
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -211,7 +211,7 @@ Accept wildcard characters: False
 
 ### -EndUserQuarantinePermissions
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 **Note**: To set permissions in quarantine policies, we recommend using the EndUserQuarantinePermissionsValue parameter.
 
@@ -233,7 +233,7 @@ Accept wildcard characters: False
 
 ### -EndUserQuarantinePermissionsValue
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EndUserQuarantinePermissionsValue parameter specifies the end-user permissions for the quarantine policy.
 
@@ -272,7 +272,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationCustomFromAddress
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EndUserSpamNotificationCustomFromAddress specifies the email address of an existing internal sender to use as the sender for quarantine notifications.
 
@@ -292,7 +292,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationFrequency
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EndUserSpamNotificationFrequency parameter specifies how often quarantine notifications are sent to users. Valid values are:
 
@@ -314,7 +314,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationFrequencyInDays
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -332,7 +332,7 @@ Accept wildcard characters: False
 
 ### -EndUserSpamNotificationLanguage
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -351,7 +351,7 @@ Accept wildcard characters: False
 
 ### -EsnCustomSubject
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EsnCustomSubject parameter specifies the text to use in the Subject field of quarantine notifications.
 
@@ -375,7 +375,7 @@ Accept wildcard characters: False
 
 ### -ESNEnabled
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ESNEnabled parameter specifies whether to enable quarantine notifications (formerly known as end-user spam notifications) for the policy. Valid values are:
 
@@ -398,7 +398,7 @@ Accept wildcard characters: False
 
 ### -IncludeMessagesFromBlockedSenderAddress
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The IncludeMessagesFromBlockedSenderAddress parameter specifies whether to send quarantine notifications for quarantined messages from blocked sender addresses. Valid values are:
 
@@ -419,7 +419,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguageCustomDisclaimer
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -437,7 +437,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguageSenderName
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -455,7 +455,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguageSetting
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -473,7 +473,7 @@ Accept wildcard characters: False
 
 ### -OrganizationBrandingEnabled
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -491,7 +491,7 @@ Accept wildcard characters: False
 
 ### -QuarantineRetentionDays
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -509,7 +509,7 @@ Accept wildcard characters: False
 
 ### -QuarantinePolicyType
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 

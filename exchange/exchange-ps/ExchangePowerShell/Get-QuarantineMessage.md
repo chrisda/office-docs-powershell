@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.ServerStatus-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -102,7 +102,7 @@ This example returns detailed information for the files protected by Safe Attach
 
 ### -Identity
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the quarantined message that you want to view. The value is a unique quarantined message identifier in the format `GUID1\GUID2` (for example `c14401cf-aa9a-465b-cfd5-08d0f0ca37c5\4c2ca98e-94ea-db3a-7eb8-3b63657d4db7`).
 
@@ -124,7 +124,7 @@ Accept wildcard characters: False
 
 ### -Direction
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Direction parameter filters the results by incoming or outgoing messages. Valid values are:
 
@@ -147,7 +147,7 @@ Accept wildcard characters: False
 
 ### -Domain
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -165,7 +165,7 @@ Accept wildcard characters: False
 
 ### -EndExpiresDate
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EndExpiresDate parameter specifies the latest messages that are automatically deleted from the quarantine. Use this parameter with the StartExpiresDate parameter.
 
@@ -187,7 +187,7 @@ Accept wildcard characters: False
 
 ### -EndReceivedDate
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EndReceivedDate parameter specifies the latest messages to return in the results. Use this parameter with the StartReceivedDate parameter.
 
@@ -207,7 +207,7 @@ Accept wildcard characters: False
 
 ### -EntityType
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EntityType parameter filters the results by EntityType. Valid values are:
 
@@ -230,7 +230,7 @@ Accept wildcard characters: False
 
 ### -IncludeMessagesFromBlockedSenderAddress
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The IncludeMessagesFromBlockedSenderAddress switch specifies whether to include quarantined messages from blocked senders in the results. You don't need to specify a value with this switch.
 
@@ -248,7 +248,7 @@ Accept wildcard characters: False
 
 ### -MessageId
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MessageId parameter filters the results by the Message-ID header field of the message. This value is also known as the Client ID. The format of the Message-ID depends on the messaging server that sent the message. The value should be unique for each message. However, not all messaging servers create values for the Message-ID in the same way. Be sure to include the full Message ID string (which might include angle brackets) and enclose the value in quotation marks (for example, `"<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>"`).
 
@@ -266,7 +266,7 @@ Accept wildcard characters: False
 
 ### -MyItems
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The MyItems switch filters the results by messages where you (the user that's running the command) are the recipient. You don't need to specify a value with this switch.
 
@@ -284,7 +284,7 @@ Accept wildcard characters: False
 
 ### -Page
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Page parameter specifies the page number of the results you want to view. Valid input for this parameter is an integer between 1 and 1000. The default value is 1.
 
@@ -302,7 +302,7 @@ Accept wildcard characters: False
 
 ### -PageSize
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The PageSize parameter specifies the maximum number of entries per page. Valid input for this parameter is an integer between 1 and 1000. The default value is 100.
 
@@ -320,7 +320,7 @@ Accept wildcard characters: False
 
 ### -PolicyName
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The PolicyName parameter filters the results by the threat policy that quarantined the message (for example, an anti-malware policy or an anti-spam policy). You can use any value that uniquely identifies the policy. For example:
 
@@ -342,7 +342,7 @@ Accept wildcard characters: False
 
 ### -PolicyTypes
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The PolicyTypes parameter filters the results by the type of threat policy that quarantined the message. Valid values are:
 
@@ -369,7 +369,7 @@ Accept wildcard characters: False
 
 ### -QuarantineTypes
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The QuarantineTypes parameter filters the results by what caused the message to be quarantined. Valid values are:
 
@@ -403,7 +403,7 @@ Accept wildcard characters: False
 
 ### -RecipientAddress
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The RecipientAddress parameter filters the results by the recipient's email address. You can specify multiple values separated by commas.
 
@@ -421,7 +421,7 @@ Accept wildcard characters: False
 
 ### -RecipientTag
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The RecipientTag parameter filters the results by the recipient's user tag value (for example, `Priority Account`). For more information about user tags, see [User tags in Defender for Office 365](https://learn.microsoft.com/defender-office-365/user-tags-about).
 
@@ -441,7 +441,7 @@ Accept wildcard characters: False
 
 ### -ReleaseStatus
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ReleaseStatus parameter filters the results by the release status of the message. Valid values are:
 
@@ -471,7 +471,7 @@ Accept wildcard characters: False
 
 ### -Reported
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Reported parameter filters the results by messages that have already been reported as false positives. Valid values are:
 
@@ -492,7 +492,7 @@ Accept wildcard characters: False
 
 ### -SenderAddress
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SenderAddress parameter filters the results by the sender's email address. You can specify multiple values separated by commas.
 
@@ -510,7 +510,7 @@ Accept wildcard characters: False
 
 ### -StartExpiresDate
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The StartExpiresDate parameter specifies the earliest messages that are automatically deleted from the quarantine. Use this parameter with the EndExpiresDate parameter.
 
@@ -532,7 +532,7 @@ Accept wildcard characters: False
 
 ### -StartReceivedDate
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The StartReceivedDate parameter specifies the earliest messages to return in the results. Use this parameter with the EndReceivedDate parameter.
 
@@ -554,7 +554,7 @@ Accept wildcard characters: False
 
 ### -Subject
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Subject parameter filters the results by the subject field of the message. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -572,7 +572,7 @@ Accept wildcard characters: False
 
 ### -TeamsConversationTypes
 
-> Applicable: Security & Compliance
+> Applicable: Security & Compliance, Defender for Office 365
 
 This parameter is available only in Security & Compliance PowerShell.
 
@@ -597,7 +597,7 @@ Accept wildcard characters: False
 
 ### -Type
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Type parameter filters the results by what caused the message to be quarantined. Valid values are:
 

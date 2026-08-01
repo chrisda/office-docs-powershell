@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.ServerStatus-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -110,7 +110,7 @@ This example releases a file that was quarantined as part of Safe Attachments fo
 
 ### -Identities
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identities parameter identifies quarantined messages for bulk operations. You identify the messages by using the syntax: `value1,value2,...valueN`. The value is a unique quarantined message identifier in the format `GUID1\GUID2` (for example `c14401cf-aa9a-465b-cfd5-08d0f0ca37c5\4c2ca98e-94ea-db3a-7eb8-3b63657d4db7`).
 
@@ -132,7 +132,7 @@ Accept wildcard characters: False
 
 ### -Identity
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the quarantined message that you want to release. The value is a unique quarantined message identifier in the format `GUID1\GUID2` (for example `c14401cf-aa9a-465b-cfd5-08d0f0ca37c5\4c2ca98e-94ea-db3a-7eb8-3b63657d4db7`).
 
@@ -152,7 +152,7 @@ Accept wildcard characters: False
 
 ### -ReleaseToAll
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ReleaseToAll switch releases the quarantined message to all original recipients. You don't need to specify a value with this switch.
 
@@ -176,7 +176,7 @@ Accept wildcard characters: False
 
 ### -User
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The User parameter specifies the email address of the user to whom you want to release the quarantined message. You can specify multiple email addresses separated by commas.
 
@@ -198,7 +198,7 @@ Accept wildcard characters: False
 
 ### -ActionType
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ActionType parameter specifies the release action type. Valid values are:
 
@@ -220,7 +220,7 @@ Accept wildcard characters: False
 
 ### -AllowSender
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The AllowSender switch specifies that all future messages from the sender isn't quarantined. You don't need to specify a value with this switch.
 
@@ -240,7 +240,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -261,7 +261,7 @@ Accept wildcard characters: False
 
 ### -Force
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Force switch hides warning or confirmation messages. You don't need to specify a value with this switch.
 
@@ -281,7 +281,7 @@ Accept wildcard characters: False
 
 ### -ReportFalsePositive
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ReportFalsePositive switch specifies whether to report the message as a false positive to Microsoft (good message marked as bad). You don't need to specify a value with this switch.
 
@@ -305,7 +305,7 @@ The WhatIf switch doesn't work in Security & Compliance PowerShell.
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)

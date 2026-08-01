@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.ServerStatus-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -48,7 +48,7 @@ This example returns detailed information for the specified report execution ins
 
 ### -Identity
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the report execution instance that you want to view. The identity of the instance is a unique GUID value.
 
@@ -68,7 +68,7 @@ Accept wildcard characters: False
 
 ### -ScheduleId
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ScheduleId parameter filters the results by the specified ScheduleId property value, which is a GUID. Multiple report execution instances can have the same ScheduleId value.
 

@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -52,7 +52,7 @@ This example modifies the existing safe attachment policy named Engineering Bloc
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the safe attachment policy that you want to modify.
 
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 
 ### -Action
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Action parameter specifies the action for the safe attachment policy. Valid values are:
 
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 
 ### -AdminDisplayName
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The AdminDisplayName parameter specifies a description for the policy. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -122,7 +122,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -143,7 +143,7 @@ Accept wildcard characters: False
 
 ### -Enable
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Enable parameter works with the Action parameter to specify the action for the safe attachment policy. Valid values are:
 
@@ -166,7 +166,7 @@ Accept wildcard characters: False
 
 ### -QuarantineTag
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The QuarantineTag parameter specifies the quarantine policy that's used on messages that are quarantined as malware by Safe Attachments. You can use any value that uniquely identifies the quarantine policy. For example:
 
@@ -194,7 +194,7 @@ Accept wildcard characters: False
 
 ### -Redirect
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Redirect parameter specifies whether to deliver messages to an alternate email address if malware is detected in an attachment. Valid values are:
 
@@ -215,7 +215,7 @@ Accept wildcard characters: False
 
 ### -RedirectAddress
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The RedirectAddress parameter specifies the destination email address to deliver messages if malware is detected in an attachment.
 
@@ -235,7 +235,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

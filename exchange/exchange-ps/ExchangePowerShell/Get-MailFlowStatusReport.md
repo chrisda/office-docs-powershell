@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.ServerStatus-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -55,7 +55,7 @@ This example returns inbound and outbound messages were classified as GoodMail o
 
 ### -Direction
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Direction parameter filters the results by the direction of the message. Valid values are:
 
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 
 ### -Domain
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -97,7 +97,7 @@ Accept wildcard characters: False
 
 ### -EndDate
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EndDate parameter specifies the end date of the date range.
 
@@ -117,7 +117,7 @@ Accept wildcard characters: False
 
 ### -EventType
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EventType parameter filters the report by the event type. Valid values are:
 
@@ -144,7 +144,7 @@ Accept wildcard characters: False
 
 ### -Page
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -162,7 +162,7 @@ Accept wildcard characters: False
 
 ### -PageSize
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -180,7 +180,7 @@ Accept wildcard characters: False
 
 ### -ProbeTag
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -198,7 +198,7 @@ Accept wildcard characters: False
 
 ### -StartDate
 
-> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The StartDate parameter specifies the start date of the date range.
 

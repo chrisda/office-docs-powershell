@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -53,7 +53,7 @@ This example removes all external spoof pairs from the Tenant Allow/Block List.
 
 ### -Identity
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter uses the value Default.
 
@@ -71,7 +71,7 @@ Accept wildcard characters: False
 
 ### -Action
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Action parameter specifies whether this entry is an allow or block spoofed sender entry. Valid values are:
 
@@ -92,7 +92,7 @@ Accept wildcard characters: False
 
 ### -Ids
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Ids parameter specifies the spoof pair that you want to modify. A valid value is the Identity property value from the output of the Get-TenantAllowBlockListSpoofItems cmdlet. You can specify multiple values separated by commas.
 
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -135,7 +135,7 @@ The WhatIf switch doesn't work in Security & Compliance PowerShell.
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)

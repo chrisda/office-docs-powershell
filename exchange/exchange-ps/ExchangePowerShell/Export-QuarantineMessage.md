@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.ServerStatus-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -88,7 +88,7 @@ This example exports the specified message with attachments that was quarantined
 
 ### -Identities
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identities parameter identifies quarantined messages for bulk operations. You identify the messages by using the syntax: `value1,value2...valueN`. Each value is a unique quarantined message identifier in the format `GUID1\GUID2` (for example `c14401cf-aa9a-465b-cfd5-08d0f0ca37c5\4c2ca98e-94ea-db3a-7eb8-3b63657d4db7`).
 
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 
 ### -Identity
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter specifies the quarantined message that you want to export. The value is a unique quarantined message identifier in the format `GUID1\GUID2` (for example `c14401cf-aa9a-465b-cfd5-08d0f0ca37c5\4c2ca98e-94ea-db3a-7eb8-3b63657d4db7`).
 
@@ -130,7 +130,7 @@ Accept wildcard characters: False
 
 ### -CompressOutput
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The CompressOutput switch exports the message as a compressed .zip file. You don't need to specify a value with this switch.
 
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 
 ### -EntityType
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The EntityType parameter filters the results by EntityType. Valid values are:
 
@@ -173,7 +173,7 @@ Accept wildcard characters: False
 
 ### -ForceConversionToMime
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ForceConversionToMime switch converts exported plain text messages to MIME formatting. You don't need to specify a value with this switch.
 
@@ -193,7 +193,7 @@ Accept wildcard characters: False
 
 ### -Password
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Password parameter specifies the password that's required to open the exported message.
 
@@ -219,7 +219,7 @@ Accept wildcard characters: False
 
 ### -PasswordV2
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The PasswordV2 parameter specifies the plain text value of the password that's required to open the exported message. Enclose the value in quotation marks (for example, `'<password>'`).
 
@@ -237,7 +237,7 @@ Accept wildcard characters: False
 
 ### -ReasonForExport
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The ReasonForExport parameter specifies why the message was exported. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -255,7 +255,7 @@ Accept wildcard characters: False
 
 ### -RecipientAddress
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The RecipientAddress parameter filters the results by the recipient's email address. You can specify multiple values separated by commas.
 

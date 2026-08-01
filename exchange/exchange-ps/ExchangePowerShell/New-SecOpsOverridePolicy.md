@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -46,7 +46,7 @@ This example creates the SecOps mailbox override policy with the specified setti
 
 ### -Name
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Name parameter specifies the name for the SecOps mailbox override policy. Regardless of the value you specify, the name is SecOpsOverridePolicy.
 
@@ -64,7 +64,7 @@ Accept wildcard characters: False
 
 ### -SentTo
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The SentTo parameter specifies the email address of the SecOps mailbox. Groups are not allowed.
 
@@ -84,7 +84,7 @@ Accept wildcard characters: False
 
 ### -Comment
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Comment parameter specifies an optional comment. If you specify a value that contains spaces, enclose the value in quotation marks ("), for example: "This is an admin note".
 
@@ -102,7 +102,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -141,7 +141,7 @@ Accept wildcard characters: False
 
 ### -Enabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Enabled parameter specifies whether the policy is enabled. Valid values are:
 
@@ -182,7 +182,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The WhatIf switch doesn't work in Security & Compliance PowerShell.
 

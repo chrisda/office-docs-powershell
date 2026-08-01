@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online
+applicable: Exchange Online, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -187,7 +187,7 @@ If the report submission rule doesn't already exist (the Get-ReportSubmissionRul
 
 ### -Identity
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Identity parameter specifies the report submission policy that you want to modify. The only available policy is named DefaultReportSubmissionPolicy.
 
@@ -205,7 +205,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -226,7 +226,7 @@ Accept wildcard characters: False
 
 ### -DisableQuarantineReportingOption
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The DisableQuarantineReportingOption parameter allows or prevents users from reporting messages in quarantine. Valid values are:
 
@@ -249,7 +249,7 @@ Accept wildcard characters: False
 
 ### -DisableUserSubmissionOptions
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -267,7 +267,7 @@ Accept wildcard characters: False
 
 ### -EnableCustomizedMsg
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -285,7 +285,7 @@ Accept wildcard characters: False
 
 ### -EnableCustomNotificationSender
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableCustomNotificationSender parameter specifies whether a custom sender email address is used for result messages after an admin reviews and marks the reported messages as junk, not junk, or phishing. Valid values are:
 
@@ -308,7 +308,7 @@ Accept wildcard characters: False
 
 ### -EnableOrganizationBranding
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableOrganizationBranding parameter specifies whether to show the company logo in the footer of result messages that users receive after an admin reviews and marks the reported messages as junk, not junk, or phishing. Valid values are:
 
@@ -331,7 +331,7 @@ Accept wildcard characters: False
 
 ### -EnableReportToMicrosoft
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableReportToMicrosoft parameter specifies whether Microsoft integrated reporting experience is enabled or disabled. Valid values are $true or $false.
 
@@ -360,7 +360,7 @@ Accept wildcard characters: False
 
 ### -EnableThirdPartyAddress
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableThirdPartyAddress parameter specifies whether you're using non-Microsoft reporting tools in Outlook instead of Microsoft tools to send messages to the reporting mailbox in Exchange Online. Valid values are $true or $false.
 
@@ -385,7 +385,7 @@ Accept wildcard characters: False
 
 ### -EnableUserEmailNotification
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The EnableUserEmailNotification parameter species whether users receive result messages after an admin reviews and marks the reported messages as junk, not junk, or phishing. Valid values are:
 
@@ -412,7 +412,7 @@ Accept wildcard characters: False
 
 ### -JunkReviewResultMessage
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The JunkReviewResultMessage parameter specifies the custom text to use in result messages after an admin reviews and marks the reported messages as junk. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -436,7 +436,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePostSubmitMessageButtonLinkForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePostSubmitMessageButtonLinkForJunk Description }}
 
@@ -454,7 +454,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePostSubmitMessageButtonLinkForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePostSubmitMessageButtonLinkForPhishing Description }}
 
@@ -472,7 +472,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePostSubmitMessageButtonTextForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePostSubmitMessageButtonTextForJunk Description }}
 
@@ -490,7 +490,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePostSubmitMessageButtonTextForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePostSubmitMessageButtonTextForPhishing Description }}
 
@@ -508,7 +508,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePostSubmitMessageForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePostSubmitMessageForJunk Description }}
 
@@ -526,7 +526,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePostSubmitMessageForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePostSubmitMessageForPhishing Description }}
 
@@ -544,7 +544,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePostSubmitMessageTitleForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePostSubmitMessageTitleForJunk Description }}
 
@@ -562,7 +562,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePostSubmitMessageTitleForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePostSubmitMessageTitleForPhishing Description }}
 
@@ -580,7 +580,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageButtonLinkForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageButtonLinkForJunk Description }}
 
@@ -598,7 +598,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageButtonLinkForNotJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageButtonLinkForNotJunk Description }}
 
@@ -616,7 +616,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageButtonLinkForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageButtonLinkForPhishing Description }}
 
@@ -634,7 +634,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageButtonTextForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageButtonTextForJunk Description }}
 
@@ -652,7 +652,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageButtonTextForNotJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageButtonTextForNotJunk Description }}
 
@@ -670,7 +670,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageButtonTextForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageButtonTextForPhishing Description }}
 
@@ -688,7 +688,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageForJunk Description }}
 
@@ -706,7 +706,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageForNotJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageForNotJunk Description }}
 
@@ -724,7 +724,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageForPhishing Description }}
 
@@ -742,7 +742,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageTitleForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageTitleForJunk Description }}
 
@@ -760,7 +760,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageTitleForNotJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageTitleForNotJunk Description }}
 
@@ -778,7 +778,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguagePreSubmitMessageTitleForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguagePreSubmitMessageTitleForPhishing Description }}
 
@@ -796,7 +796,7 @@ Accept wildcard characters: False
 
 ### -MultiLanguageSetting
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill MultiLanguageSetting Description }}
 
@@ -814,7 +814,7 @@ Accept wildcard characters: False
 
 ### -NotJunkReviewResultMessage
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The NotJunkReviewResultMessage parameter specifies the custom text to use in result messages after an admin reviews and marks the reported messages as not junk. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -838,7 +838,7 @@ Accept wildcard characters: False
 
 ### -NotificationFooterMessage
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The NotificationFooterMessage parameter specifies the custom footer text to use in email notifications after an admin reviews and marks the reported messages as junk, not junk, or phishing. If the value contains spaces, enclose the value in quotation marks.
 
@@ -860,7 +860,7 @@ Accept wildcard characters: False
 
 ### -NotificationSenderAddress
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The NotificationSenderAddress parameter specifies the sender email address to use in result messages after an admin reviews and marks the reported messages as junk, not junk, or phishing. The email address must be in Exchange Online.
 
@@ -880,7 +880,7 @@ Accept wildcard characters: False
 
 ### -NotificationsForCleanSubmissionAirInvestigationsEnabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -898,7 +898,7 @@ Accept wildcard characters: False
 
 ### -NotificationsForPhishMalwareSubmissionAirInvestigationsEnabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -916,7 +916,7 @@ Accept wildcard characters: False
 
 ### -NotificationsForSpamSubmissionAirInvestigationsEnabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -934,7 +934,7 @@ Accept wildcard characters: False
 
 ### -NotificationsForSubmissionAirInvestigationsEnabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -952,7 +952,7 @@ Accept wildcard characters: False
 
 ### -OnlyShowPhishingDisclaimer
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -970,7 +970,7 @@ Accept wildcard characters: False
 
 ### -PhishingReviewResultMessage
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The PhishingReviewResultMessage parameter specifies the custom text to use in result messages after an admin reviews and marks the reported messages as phishing. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -994,7 +994,7 @@ Accept wildcard characters: False
 
 ### -PostSubmitMessage
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The PostSubmitMessage parameter specifies the custom pop-up message text to use in Outlook notifications after users report messages. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -1016,7 +1016,7 @@ Accept wildcard characters: False
 
 ### -PostSubmitMessageEnabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The PostSubmitMessageEnabled parameter enables or disables the pop-up Outlook notifications that users see after they report messages using Microsoft reporting tools. Valid values are:
 
@@ -1037,7 +1037,7 @@ Accept wildcard characters: False
 
 ### -PostSubmitMessageForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PostSubmitMessage parameter instead.
 
@@ -1055,7 +1055,7 @@ Accept wildcard characters: False
 
 ### -PostSubmitMessageForNotJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PostSubmitMessage parameter instead.
 
@@ -1073,7 +1073,7 @@ Accept wildcard characters: False
 
 ### -PostSubmitMessageForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PostSubmitMessage parameter instead.
 
@@ -1091,7 +1091,7 @@ Accept wildcard characters: False
 
 ### -PostSubmitMessageTitle
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The PostSubmitMessage parameter parameter specifies the custom pop-up message title to use in Outlook notifications after users report messages. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -1113,7 +1113,7 @@ Accept wildcard characters: False
 
 ### -PostSubmitMessageTitleForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PostSubmitMessageTitle parameter instead.
 
@@ -1131,7 +1131,7 @@ Accept wildcard characters: False
 
 ### -PostSubmitMessageTitleForNotJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PostSubmitMessageTitle parameter instead.
 
@@ -1149,7 +1149,7 @@ Accept wildcard characters: False
 
 ### -PostSubmitMessageTitleForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PostSubmitMessageTitle parameter instead.
 
@@ -1167,7 +1167,7 @@ Accept wildcard characters: False
 
 ### -PreSubmitMessage
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The PreSubmitMessage parameter specifies the custom pop-up message text to use in Outlook notifications before users report messages. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -1189,7 +1189,7 @@ Accept wildcard characters: False
 
 ### -PreSubmitMessageEnabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The PreSubmitMessageEnabled parameter enables or disables the pop-up Outlook notifications that users see before they report messages using Microsoft reporting tools. Valid values are:
 
@@ -1210,7 +1210,7 @@ Accept wildcard characters: False
 
 ### -PreSubmitMessageForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PreSubmitMessage parameter instead.
 
@@ -1228,7 +1228,7 @@ Accept wildcard characters: False
 
 ### -PreSubmitMessageForNotJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PreSubmitMessage parameter instead.
 
@@ -1246,7 +1246,7 @@ Accept wildcard characters: False
 
 ### -PreSubmitMessageForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PreSubmitMessage parameter instead.
 
@@ -1264,7 +1264,7 @@ Accept wildcard characters: False
 
 ### -PreSubmitMessageTitle
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The PreSubmitMessage parameter parameter specifies the custom pop-up message title to use in Outlook notifications before users report messages. If the value contains spaces, enclose the value in quotation marks (").
 
@@ -1286,7 +1286,7 @@ Accept wildcard characters: False
 
 ### -PreSubmitMessageTitleForJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PreSubmitMessageTitle parameter instead.
 
@@ -1304,7 +1304,7 @@ Accept wildcard characters: False
 
 ### -PreSubmitMessageTitleForNotJunk
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PreSubmitMessageTitle parameter instead.
 
@@ -1322,7 +1322,7 @@ Accept wildcard characters: False
 
 ### -PreSubmitMessageTitleForPhishing
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 Don't use this parameter. Use the PreSubmitMessageTitle parameter instead.
 
@@ -1340,7 +1340,7 @@ Accept wildcard characters: False
 
 ### -ReportChatMessageEnabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -1358,7 +1358,7 @@ Accept wildcard characters: False
 
 ### -ReportChatMessageToCustomizedAddressEnabled
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 {{ Fill ReportChatMessageToCustomizedAddressEnabled Description }}
 
@@ -1376,7 +1376,7 @@ Accept wildcard characters: False
 
 ### -ReportJunkAddresses
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 **Note**: You aren't absolutely required to use this parameter. You specify the email address of the reporting mailbox using the SentTo parameter on the New-ReportSubmissionRule or Set-ReportSubmissionRule cmdlet. To reduce confusion, set this parameter to the same value.
 
@@ -1400,7 +1400,7 @@ Accept wildcard characters: False
 
 ### -ReportJunkToCustomizedAddress
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ReportJunkToCustomizedAddress parameter specifies whether to send user reported messages from Outlook (using Microsoft or non-Microsoft reporting tools) to the reporting mailbox as part of reporting in Outlook. Valid values are:
 
@@ -1423,7 +1423,7 @@ Accept wildcard characters: False
 
 ### -ReportNotJunkAddresses
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 **Note**: You aren't absolutely required to use this parameter. You specify the email address of the reporting mailbox using the SentTo parameter on the New-ReportSubmissionRule or Set-ReportSubmissionRule cmdlet. To reduce confusion, set this parameter to the same value.
 
@@ -1447,7 +1447,7 @@ Accept wildcard characters: False
 
 ### -ReportNotJunkToCustomizedAddress
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ReportNotJunkToCustomizedAddress parameter specifies whether to send user reported messages from Outlook (using Microsoft or non-Microsoft reporting tools) to the reporting mailbox as part of reporting in Outlook. Valid values are:
 
@@ -1470,7 +1470,7 @@ Accept wildcard characters: False
 
 ### -ReportPhishAddresses
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 **Note**: You aren't absolutely required to use this parameter. You specify the email address of the reporting mailbox using the SentTo parameter on the New-ReportSubmissionRule or Set-ReportSubmissionRule cmdlet. To reduce confusion, set this parameter to the same value.
 
@@ -1494,7 +1494,7 @@ Accept wildcard characters: False
 
 ### -ReportPhishToCustomizedAddress
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The ReportPhishToCustomizedAddress parameter specifies whether to send user reported messages from Outlook (using Microsoft or non-Microsoft reporting tools) to the reporting mailbox as part of reporting in Outlook. Valid values are:
 
@@ -1517,7 +1517,7 @@ Accept wildcard characters: False
 
 ### -ThirdPartyReportAddresses
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 **Note**: You aren't absolutely required to use this parameter. You specify the email address of the reporting mailbox using the SentTo parameter on the New-ReportSubmissionRule or Set-ReportSubmissionRule cmdlet. To reduce confusion, set this parameter to the same value.
 
@@ -1541,7 +1541,7 @@ Accept wildcard characters: False
 
 ### -UserSubmissionOptions
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -1559,7 +1559,7 @@ Accept wildcard characters: False
 
 ### -UserSubmissionOptionsMessage
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 This parameter is reserved for internal Microsoft use.
 
@@ -1577,7 +1577,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 
-> Applicable: Exchange Online
+> Applicable: Exchange Online, Defender for Office 365
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 

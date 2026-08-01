@@ -1,5 +1,5 @@
 ---
-applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 external help file: Microsoft.Exchange.TransportMailflow-Help.xml
 Locale: en-US
 Module Name: ExchangePowerShell
@@ -44,7 +44,7 @@ This example creates an allow entry for the sender bob@contoso.com from the sour
 
 ### -Identity
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Identity parameter uses the value Default.
 
@@ -62,7 +62,7 @@ Accept wildcard characters: False
 
 ### -SendingInfrastructure
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SendingInfrastructure parameter specifies the source of the messages sent by the spoofed sender that's defined in the SpoofedUser parameter. Valid values are:
 
@@ -84,7 +84,7 @@ Accept wildcard characters: True
 
 ### -SpoofedUser
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SpoofedUser parameter specifies the email address or domain for the spoofed sender entry.
 
@@ -107,7 +107,7 @@ Accept wildcard characters: True
 
 ### -SpoofType
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The SpoofType parameter specifies whether this is an internal or external spoofed sender entry. Valid values are:
 
@@ -128,7 +128,7 @@ Accept wildcard characters: False
 
 ### -Action
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Action parameter specifies whether is an allowed or blocked spoofed sender entry. Valid values are:
 
@@ -149,7 +149,7 @@ Accept wildcard characters: False
 
 ### -Confirm
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 
 The Confirm switch specifies whether to show or hide the confirmation prompt. How this switch affects the cmdlet depends on whether the cmdlet requires confirmation before proceeding.
 
@@ -174,7 +174,7 @@ The WhatIf switch doesn't work in Security & Compliance PowerShell.
 
 The WhatIf switch shows what the command does without making any changes. You don't need to specify a value with this switch.
 
-> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes
+> Applicable: Exchange Online, Security & Compliance, Built-in security add-on for on-premises mailboxes, Defender for Office 365
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
